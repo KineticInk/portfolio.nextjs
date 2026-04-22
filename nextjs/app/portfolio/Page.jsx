@@ -34,7 +34,7 @@ export default function Home() {
         <img className="flick" src="smokeforest.JPG" alt="forest" width="100%" height="100%"/>
         <img className="flick" src="forestpain.JPG" alt="car" width="50%" height="25%"/>
 
-
+asd
 
         <video src="web 2.mov"width="1000px"/>
     </div>
