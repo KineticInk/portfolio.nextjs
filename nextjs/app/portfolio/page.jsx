@@ -1,14 +1,15 @@
 import Image from "next/image";
+import style from "./page.module.css";
 
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
 
             <header>
-                <a href="index.html" className="logo"><strong>Jaelon Stimak-Eckman </strong></a>
+                <a href="index.html" className={style.logo}><strong>Jaelon Stimak-Eckman </strong></a>
                 <nav id="nav">
                     <a href="portfolio.html">Portfolio</a>
-                    <a href="About.html">About</a>
+                    <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                 </nav>
                 <div className="menu-toggle" onclick="toggleMenu()">
@@ -40,7 +41,7 @@ export default function Home() {
             </div>
 
             <header>
-                <a href="/index.html" className="logo"><strong>Jaelon Stimak-Eckman </strong></a>
+                <a href="/index.html" className={style.logo}><strong>Jaelon Stimak-Eckman </strong></a>
                 <nav id="nav">
                     <a href="/portfolio.html">Portfolio</a>
                     <a href="/about.html">About</a>
