@@ -1,5 +1,6 @@
 import Image from "next/image";
 import style from "./page.module.css";
+import BBShower1 from "@/app/assets/images/bbshower1.jpg";
 
 export default function Home() {
     return (
@@ -30,6 +31,7 @@ export default function Home() {
 
                 </video>
                 <h1>Photos</h1>
+                <Image className={style.flick} src={BBShower1.src} alt="car" width={300} height={300} />
                 <img className="flick" src="bbshower1.JPG" alt="car" width="25%" height="25%" />
                 <img className="flick" src="bbshowercollage.JPG" alt="bbshower" width="25%" height="25%" />
                 <img className="flick" src="bbshowerHands.JPG" alt="bbshower" width="25%" height="25%" />
