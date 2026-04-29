@@ -41,11 +41,14 @@ export default function Home() {
                 </video>
 
                 <h1>Photos</h1>
-                <Image className={styles.flick} src={BBShower1} alt="bbshower" width={300} height={300} />
-                <Image className={styles.flick} src={BBShowercollage} alt="bbshower collage" width={300} height={300} />
-                <Image className={styles.flick} src={BBShowerhands} alt="bbshower hands" width={300} height={300} />
-                <Image className={styles.flick} src={Smokeforest} alt="smoke forest" width={300} height={300} />
-                <Image className={styles.flick} src={Forestpain} alt="forest" width={300} height={300} />
+                <div className={styles.pictures}>
+                    <Image className={styles.flick} src={BBShower1} alt="bbshower" width={300} height={300} />
+                    <Image className={styles.flick} src={BBShowercollage} alt="bbshower collage" width={300} height={300} />
+                    <Image className={styles.flick} src={BBShowerhands} alt="bbshower hands" width={300} height={300} />
+                    <Image className={styles.flick} src={Smokeforest} alt="smoke forest" width={300} height={300} />
+                    <Image className={styles.flick} src={Forestpain} alt="forest" width={300} height={300} />
+                </div>
+
 
                 <video className={styles.flick} src="web2.mov" width={1000} />
             </div>
