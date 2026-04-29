@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/images";
+import Image from "next/image";
 import styles from "./page.module.css";
 import AboutImg from "@/app/assets/images/bbme.jpg";
 

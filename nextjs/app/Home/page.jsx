@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/images";
+import Image from "next/image";
 import styles from "./page.module.css";
 
 import Slide1 from "@/app/assets/images/nundu.jpg";
