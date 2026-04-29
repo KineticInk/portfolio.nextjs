@@ -83,7 +83,7 @@ export default function Home() {
             <div className={styles.contentSection}>
                 <h1>Jaelon Stimak-Eckman</h1>
                 <h2>(jzillafilmz) Director and visual storyteller.</h2>
-                <p>Specializing in effects and cinematography, capturing the world around us through the lens of raw creativity.</p>
+                <p>Specializing in photography and cinematography, capturing the world around us through the lens of raw creativity.</p>
             </div>
 
         </div>
