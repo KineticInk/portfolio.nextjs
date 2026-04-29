@@ -1,6 +1,11 @@
 import Image from "next/image";
 import style from "./page.module.css";
 import BBShower1 from "@/app/assets/images/bbshower1.jpg";
+import BBShowercollage from "@/app/assets/images/bbshowercollage.jpg";
+import BBShowerhands from "@/app/assets/images/bbshowerhands.jpg";
+import Smokeforest from "@/app/assets/images/smokeforest.jpg";
+import Forestpain from "@/app/assets/images/forestpain.jpg";
+
 
 export default function Home() {
     return (
@@ -8,7 +13,7 @@ export default function Home() {
 
             <header>
                 <a href="index.html" className={style.logo}><strong>Jaelon Stimak-Eckman </strong></a>
-                <nav id="nav">
+                <nav className="nav">
                     <a href="portfolio.html">Portfolio</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
@@ -31,12 +36,11 @@ export default function Home() {
 
                 </video>
                 <h1>Photos</h1>
-                <Image className={style.flick} src={BBShower1.src} alt="car" width={300} height={300} />
-                <img className="flick" src="bbshower1.JPG" alt="car" width="25%" height="25%" />
-                <img className="flick" src="bbshowercollage.JPG" alt="bbshower" width="25%" height="25%" />
-                <img className="flick" src="bbshowerHands.JPG" alt="bbshower" width="25%" height="25%" />
-                <img className="flick" src="smokeforest.JPG" alt="forest" width="100%" height="100%" />
-                <img className="flick" src="forestpain.JPG" alt="car" width="50%" height="25%" />
+                <Image className={style.flick} src={BBShower1.src} alt="bbshower" width={300} height={300} />
+                <Image className={style.flick} src={BBShowercollage.src} alt="bbshower" width={300} height={300} />
+                <Image className={style.flick} src={BBShowerhands.src} alt="bbshower" width={300} height={300} />
+                <Image className={style.flick} src={Smokeforest.src} alt="forest" width={300} height={300} />
+                <Image className={style.flick} src={Forestpain.src} alt="forest" width={300} height={300} />
 
 
                 <video src="web 2.mov" width="1000px" />
@@ -44,7 +48,7 @@ export default function Home() {
 
             <header>
                 <a href="/index.html" className={style.logo}><strong>Jaelon Stimak-Eckman </strong></a>
-                <nav id="nav">
+                <nav className="nav">
                     <a href="/portfolio.html">Portfolio</a>
                     <a href="/about.html">About</a>
                     <a href="/contact.html">Contact</a>
