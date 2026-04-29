@@ -2,28 +2,27 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/images";
 import styles from "./page.module.css";
 
-import Slide1 from "@/app/assets/images/1.jpg";
-import Slide2 from "@/app/assets/images/bts1.jpg";
-import Slide3 from "@/app/assets/images/3.jpg";
-import Slide4 from "@/app/assets/images/2.jpg";
-import Slide5 from "@/app/assets/images/bts2.jpg";
+import Slide1 from "@/app/assets/images/nundu.jpg";
+import Slide2 from "@/app/assets/images/bts.jpg";
+import Slide3 from "@/app/assets/images/kebab.jpg";
+import Slide4 from "@/app/assets/images/nyc.jpg";
+import Slide5 from "@/app/assets/images/btstwo.jpg";
 
 const slides = [
-    { src: Slide1, alt: "Mountain landscape" },
-    { src: Slide2, alt: "Northern lights" },
-    { src: Slide3, alt: "Glacial landscape" },
-    { src: Slide4, alt: "Ocean waves" },
-    { src: Slide5, alt: "Mountain peak" },
+    { src: Slide1, alt: "1" },
+    { src: Slide2, alt: "2" },
+    { src: Slide3, alt: "3" },
+    { src: Slide4, alt: "4" },
+    { src: Slide5, alt: "5" },
 ];
 
 export default function Home() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [slideIndex, setSlideIndex] = useState(0);
 
-    // Auto-advance slides
     useEffect(() => {
         const timer = setInterval(() => {
             setSlideIndex((prev) => (prev + 1) % slides.length);
@@ -50,7 +49,6 @@ export default function Home() {
                 </div>
             </header>
 
-            {/* Fullscreen Image Slider */}
             <div className={styles.sliderContainer}>
                 {slides.map((slide, i) => (
                     <div
@@ -67,7 +65,6 @@ export default function Home() {
                     </div>
                 ))}
 
-                {/* Dots */}
                 <div className={styles.sliderDots}>
                     {slides.map((_, i) => (
                         <span
@@ -79,7 +76,6 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Content Section */}
             <div className={styles.contentSection}>
                 <h1>Jaelon Stimak-Eckman</h1>
                 <h2>(jzillafilmz) Director and visual storyteller.</h2>

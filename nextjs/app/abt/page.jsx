@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/images";
 import styles from "./page.module.css";
-import AboutImg from "@/app/assets/images/5.jpg";
+import AboutImg from "@/app/assets/images/bbme.jpg";
 
 export default function About() {
     const [menuOpen, setMenuOpen] = useState(false);

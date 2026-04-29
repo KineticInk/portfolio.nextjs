@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/images";
 import styles from "./page.module.css";
-import Bts1 from "@/app/assets/images/bts1.jpg";
+import Bts1 from "@/app/assets/images/bts.jpg";
 
 export default function Contact() {
     const [menuOpen, setMenuOpen] = useState(false);
