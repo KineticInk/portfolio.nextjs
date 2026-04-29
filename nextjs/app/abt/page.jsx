@@ -33,7 +33,7 @@ export default function About() {
                 <h2>More about me as a person</h2>
                 <Image
                     src={AboutImg}
-                    alt="Mountain landscape"
+                    alt="abtimg"
                     style={{ width: "100%", height: "auto" }}
                 />
                 <p>
