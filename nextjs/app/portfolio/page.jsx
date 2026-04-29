@@ -42,11 +42,11 @@ export default function Home() {
 
                 <h1>Photos</h1>
                 <div className={styles.pictures}>
-                    <Image className={styles.flick} src={BBShower1} alt="bbshower" width={300} height={300} />
+                    <Image className={styles.flick} src={BBShower1} alt="bbshower" width={400} height={300} />
                     <Image className={styles.flick} src={BBShowercollage} alt="bbshower collage" width={300} height={300} />
-                    <Image className={styles.flick} src={BBShowerhands} alt="bbshower hands" width={300} height={300} />
-                    <Image className={styles.flick} src={Smokeforest} alt="smoke forest" width={300} height={300} />
-                    <Image className={styles.flick} src={Forestpain} alt="forest" width={300} height={300} />
+                    <Image className={styles.flick} src={BBShowerhands} alt="bbshower hands" width={400} height={300} />
+                    <Image className={styles.flick} src={Smokeforest} alt="smoke forest" width={500} height={300} />
+                    <Image className={styles.flick} src={Forestpain} alt="forest" width={500} height={300} />
                 </div>
 
 
