@@ -23,13 +23,14 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+
+
 }>) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >      <GoogleAnalytics gaId="G-TSM6LR7ZXE" />
-
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <GoogleAnalytics gaId="G-TSM6LR7ZXE" />
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
