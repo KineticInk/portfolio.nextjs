@@ -39,6 +39,9 @@ export default function Home() {
                 <video className={styles.video} width="100%" height="100%" controls poster="Untitled-2.png">
                     <source src="showreel.mp4" type="video/mp4" />
                 </video>
+                 <video className={styles.video} width="100%" height="100%">
+                    <source src="carcraze2026_reel.mp4" type="video/mp4" />
+                </video>
 
                 <h1>Photos</h1>
                 <div className={styles.pictures}>
